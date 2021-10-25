@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color:#1a2226;
+      }
+      a{
+          text-decoration: none;
+          color:#b8c7ce; 
+          padding:.5em 16em .5em 0;
+      }
+      a:hover{
+        color: white;
+      }
+
+      img{
+          border: 1px solid white;
+          border-radius: 50%;
+          margin: 0 1.1em;
+      }
+      p{
+          margin:1em;
+      }
+      .container {
+        color:#4b646f;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .8em;
+      }
+      .profile{
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+      .sub{
+        background-color: #212d33;
+      }
+      li{
+        position: relative;
+        display: block;
+        margin: 0 -3em;
+        padding:.7em; 
+        overflow: hidden;  
+      }
+      li:hover{
+        background-color: #1c262b;
+  
+      }
+      li:hover::before{
+        content:"";
+        position: absolute;       
+        top:0;
+        left: 0;
+        width: 2px;
+        height: 30px;
+        background-color: blue;
+      } 
+      .list{
+        list-style: none;
+      }  
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub profile">
+          <img src="img/ktm.jpg" alt="profile" width="30px" height="30px">
+          <p>Alif Firmansyah</p>
+      </div>
+        <p>Menu Web Latihan</p>
+      <ul class="sub list">
+        <li><a class="item" href="https://www.w3schools.com/html/default.asp">W3cschool</a></li>
+        <li><a href="https://www.petanikode.com/tutorial/html/">Petani kode</a></li>
+        <li><a href="https://gilacoding.com/read/properti-properti-yang-digunakan-pada-css">Gila Koding</a></li>
+        <li><a href="https://code.tutsplus.com/id/tutorials/the-30-css-selectors-you-must-memorize--net-16048">Code tutplus</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

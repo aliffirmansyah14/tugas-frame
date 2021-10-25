@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       h1{
+           font-size: 1.3em;
+       }
+
+       .container{
+           margin: 0 10em;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>BIODATA MAHASISWA</h1>
+        <form>
+            <table>
+             <tr>
+                 <td >NAMA</td>
+                 <td>:</td>
+                 <td><input type="text" name="nama"></td>
+            </tr>
+             <tr>
+                 <td>ALAMAT</td>
+                 <td>:</td>
+                 <!-- <td><textarea name="alamat" style="width:400px; height: 50px"></textarea></td> -->
+                 <td><textarea name="alamat" rows="4" cols="50"></textarea></td>
+             </tr>
+             <tr>
+                 <td>TANGGAL LAHIR</td>
+                 <td>:</td>
+                 <td><input type="date" name="lahir"></td>
+                </tr>  
+             <tr>
+                 <td>TELPON</td>
+                 <td>:</td>
+                 <td><input type="text" name="telp" ></td>
+                </tr>
+             <tr>
+                 <td>EMAIL</td>
+                 <td>:</td>
+                 <td><input type="email" name="email" ></td>
+            </tr>  
+            <tr>
+                <td colspan="3"><center>
+                    <input type="submit" name="submit" value="SIMPAN"> 
+                    <input type="reset" name="reset" value="BATAL"></center>
+                </td>
+            </tr>   
+           </table>
+           </form>
+        </div>
+</body>
+</html>
